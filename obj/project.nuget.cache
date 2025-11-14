@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "f+3bdp3Y8xo=",
+  "success": true,
+  "projectFilePath": "D:\\RpgBlazor\\RpgBlazor.csproj",
+  "expectedPackageFiles": [
+    "D:\\NugetPackages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.aspnetcore.metadata\\8.0.0\\microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\microsoft.jsinterop\\8.0.0\\microsoft.jsinterop.8.0.0.nupkg.sha512",
+    "D:\\NugetPackages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
