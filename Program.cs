@@ -5,8 +5,9 @@ using Blazored.LocalStorage;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://rpgapids20252.azurewebsites.net/") });
-
+builder.Services.AddScoped<PersonagemService>();
 builder.Services.AddScoped<UsuarioService>();
+
 builder.Services.AddBlazoredLocalStorage();
 
 // Add services to the container.

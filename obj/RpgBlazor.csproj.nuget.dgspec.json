@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rpg-Blazor\\RpgBlazor.csproj": {}
+    "D:\\DiogoAlves-2DS\\RpgBlazor\\RpgBlazor.csproj": {}
   },
   "projects": {
-    "D:\\Rpg-Blazor\\RpgBlazor.csproj": {
+    "D:\\DiogoAlves-2DS\\RpgBlazor\\RpgBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rpg-Blazor\\RpgBlazor.csproj",
+        "projectUniqueName": "D:\\DiogoAlves-2DS\\RpgBlazor\\RpgBlazor.csproj",
         "projectName": "RpgBlazor",
-        "projectPath": "D:\\Rpg-Blazor\\RpgBlazor.csproj",
+        "projectPath": "D:\\DiogoAlves-2DS\\RpgBlazor\\RpgBlazor.csproj",
         "packagesPath": "D:\\NugetPackages",
-        "outputPath": "D:\\Rpg-Blazor\\obj\\",
+        "outputPath": "D:\\DiogoAlves-2DS\\RpgBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

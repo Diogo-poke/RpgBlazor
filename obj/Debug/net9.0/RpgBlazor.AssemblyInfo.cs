@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RpgBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c36dc57e1eb3bbf012d22b56af969fcb2006ed29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+748468c9763779367aab1cd51448028552d60348")]
 [assembly: System.Reflection.AssemblyProductAttribute("RpgBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RpgBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

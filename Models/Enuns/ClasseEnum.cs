@@ -1,6 +1,6 @@
 
 
-namespace Rpg-Blazor.Models.Enuns
+namespace RpgBlazor.Models.Enuns
 {
     public enum ClasseEnum
     {

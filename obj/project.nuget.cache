@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fGwz99+ZCVs=",
+  "dgSpecHash": "vFNLiqJSMsk=",
   "success": true,
-  "projectFilePath": "D:\\Rpg-Blazor\\RpgBlazor.csproj",
+  "projectFilePath": "D:\\DiogoAlves-2DS\\RpgBlazor\\RpgBlazor.csproj",
   "expectedPackageFiles": [
     "D:\\NugetPackages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "D:\\NugetPackages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",

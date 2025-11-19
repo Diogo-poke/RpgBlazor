@@ -1,8 +1,8 @@
 @page "/personagens/index"
 @rendermode InteractiveServer
-@inject Rpg-Blazor.Services.PersonagemService PersonagemService
+@inject RpgBlazor.Services.PersonagemService PersonagemService
 @inject ILocalStorageService LocalStorage
-@using Rpg-Blazor.Models
+@using RpgBlazor.Models
 @using Blazored.LocalStorage;
 @if (!string.IsNullOrEmpty(mensagem))
 {
@@ -76,8 +76,22 @@ else
         {
             try 
             {
-                 if(firstRender)
-                      await CarregarPersonagem();
+             if(firstRender)
+              {
+                   
+
+                if(Id.HasValue && Id >0)
+                {
+                  var token = await LocalStorage.GetItemAsync<string>("UsuarioToken");
+                  personagem = await PersonagemService.GetByIdAsync(token , Id.Value);
+
+
+                  
+                }
+                      
+                 
+
+              }
             }
             catch(Exception ex)
             {

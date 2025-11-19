@@ -2,50 +2,98 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Rpg-Blazor.Models.Enuns;
+using RpgBlazor.Models.Enuns;
 using System.Text.Json;
 using System.Net.Http.Headers;
 
-namespace Rpg-Blazor.Services
+namespace RpgBlazor.Services
 {
-    public class PersonagemService
+  public class PersonagemService
+  {
+    private readonly HttpClient _http;
+
+
+    public PersonagemService(HttpClient http)
     {
-         private readonly HttpClient _http;
 
+      _http = http;
 
-        public PersonagemService(HttpClient http)
-        {
-
-             _http = http;
-
-        }
+    }
 
           
-        public async Task<List<PersonagemViewModel>> GetAllAsync(string token)
-        {
-          _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" , token);
+    public async Task<List<PersonagemViewModel>> GetAllAsync(string token)
+    {
+     _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer" , token);
 
-          var response = await _http.GetAllAsync("Personagens/GetALL");
-          var responseContent = await response.Content.ReadAsStringAsync();
-          List<PersonagemViewModel> lista = new List<PersonagemViewModel>();
+      var response = await _http.GetAllAsync("Personagens/GetALL");
+      var responseContent = await response.Content.ReadAsStringAsync();
+      List<PersonagemViewModel> lista = new List<PersonagemViewModel>();
 
-          if (response.IsSucessStatusCode)
-            {
+      if (response.IsSucessStatusCode)
+      {
                 
-                lista = JsonSerializer.Deserialize<List<PersonagemViewModel>>(responseContent , JsonSerializerOptions.Web);
-                 return lista;
+        lista = JsonSerializer.Deserialize<List<PersonagemViewModel>>(responseContent , JsonSerializerOptions.Web);
+        return lista;
 
-            }
-          else
-          {
-            throw new Exception(responseContent);
-          }
-
-
-
-        }
+      }
+      else
+      {
+        throw new Exception(responseContent);
+      } 
 
 
 
     }
+            
+    public async Task<PersonagemViewModel> InsertAsync(string token, PersonagemViewModel personagem)
+    {
+
+    _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+      var content = new StringContent(JsonSerializer.Serializer(personagem));
+      content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+      var response = await _http.PostAsync("personagens", content);
+      var responseContent = await response.Content.ReadAsStringAsync();
+
+      if (response.IsSucessStatusCode)
+      {
+                
+     personagem.Id = Convert.ToInt32(responseContent);
+
+      }  
+      else 
+      {
+       throw new Exception(responseContent);
+
+      }  
+
+    }
+ 
+    public async Task<PersonagemViewModel> GetByIdAsync(string token, int id)
+    {
+      _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+      var response = await _http.GetAsync($"personagens/{id}");
+      var responseContent = await response.Content.ReadAsStringAsync();
+      PersonagemViewModel personagem   = new PersonagemViewModel();
+
+      if(response.IsSucessStatusCode)
+      {
+        personagem = JsonSerializer.Deserialize<PersonagemViewModel>(responseContent, JsonSerializerOptions.Web);
+        return personagem;
+      }     
+      else
+      {
+           throw new Exception(responseContent);
+
+      }
+
+    }
+
+
+
+
+ 
+  }
 }

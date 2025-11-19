@@ -99,3 +99,13 @@ D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.sourcelink.json
 D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.dll
 D:\Rpg-Blazor\obj\Debug\net9.0\refint\RpgBlazor.dll
 D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.pdb
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.csproj.AssemblyReference.cache
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.AssemblyInfoInputs.cache
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.AssemblyInfo.cs
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.csproj.CoreCompileInputs.cache
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.MvcApplicationPartsAssemblyInfo.cache
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.sourcelink.json
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.dll
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\refint\RpgBlazor.dll
+D:\DiogoAlves-2DS\RpgBlazor\obj\Debug\net9.0\RpgBlazor.pdb
