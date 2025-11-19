@@ -613,11 +613,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RpgBlazor\\RpgBlazor.csproj",
+      "projectUniqueName": "D:\\Rpg-Blazor\\RpgBlazor.csproj",
       "projectName": "RpgBlazor",
-      "projectPath": "D:\\RpgBlazor\\RpgBlazor.csproj",
+      "projectPath": "D:\\Rpg-Blazor\\RpgBlazor.csproj",
       "packagesPath": "D:\\NugetPackages",
-      "outputPath": "D:\\RpgBlazor\\obj\\",
+      "outputPath": "D:\\Rpg-Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

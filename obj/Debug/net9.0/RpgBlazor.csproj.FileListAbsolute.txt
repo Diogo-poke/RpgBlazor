@@ -89,3 +89,13 @@ D:\RpgBlazor\obj\Debug\net9.0\RpgBlazor.sourcelink.json
 D:\RpgBlazor\obj\Debug\net9.0\RpgBlazor.dll
 D:\RpgBlazor\obj\Debug\net9.0\refint\RpgBlazor.dll
 D:\RpgBlazor\obj\Debug\net9.0\RpgBlazor.pdb
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.csproj.AssemblyReference.cache
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.AssemblyInfoInputs.cache
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.AssemblyInfo.cs
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.csproj.CoreCompileInputs.cache
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.MvcApplicationPartsAssemblyInfo.cache
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.sourcelink.json
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.dll
+D:\Rpg-Blazor\obj\Debug\net9.0\refint\RpgBlazor.dll
+D:\Rpg-Blazor\obj\Debug\net9.0\RpgBlazor.pdb
